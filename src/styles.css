@@ -1,0 +1,71 @@
+
+.bannerBox {
+    display: flex;
+    justify-content: center;
+}
+
+.itemBox {
+    display: flex;
+    justify-content: center;
+}
+.bannerImg {
+    display: flex;
+    justify-content: center;
+}
+.featureDish {
+    display: flex;
+    justify-content: center;
+}
+h1, h2, p {
+    text-shadow:
+        0.05em 0 white,
+        0 0.05em white,
+        -0.05em 0 white,
+        0 -0.05em white,
+        -0.05em -0.05em white,
+        -0.05em 0.05em white,
+        0.05em -0.05em white,
+        0.05em 0.05em white;
+    text-align: center;
+}
+
+nav {
+    background: linear-gradient(900deg, blue 60%, black 60%);
+    height: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:xx-large;
+    float: inline-start;
+}
+.menuBox img {
+    max-height: 20em;
+    max-width: 20em;
+    font-size: large;
+}
+
+#content img {
+    max-height: 20em;
+    max-width: 20em;
+    font-size: large;
+    
+}
+
+.menuBox {
+    text-align: center;
+}
+
+.menuDisplay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    text-decoration: underline;
+}
+.aboutBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    background-color: white;
+}
